@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   description: Documentacion sobre API encargada de delivery de restaurantes
-  version: 1.0.0
+  version: 2.0.0
   title: Delivery restaurant API
 host: delivery-app-appi.herokuapp.com
 basePath: /v1
@@ -577,6 +577,10 @@ definitions:
       idReceta:
         type: string
         example: id
+      imagen:
+        type: string
+        example: >-
+          https://elranking.mx/wp-content/uploads/2019/09/26585798-e49c-4ef7-8696-3c625b214940-carneasadatacos2.jpg
   Receta:
     type: object
     properties:
